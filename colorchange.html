@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+	<button>button</button>
+<script>
+	var body = document.querySelector("body"); 
+var button = document.querySelector("button");
+var ispurple = false;
+button.addEventListener("click", function(){
+
+if(ispurple){body.style.background = "white";
+ispurple = false;}
+
+else {body.style.background = "purple"; 
+
+ispurple = true;}
+
+});
+
+</script>
+</body>
+</html>

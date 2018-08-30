@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>guessing game</title>
+	<!-- <script type="text/javascript" src="guessinggame.js"></script> -->
+</head>
+<body>
+	<h1>guessing game</h1>
+<script>
+	var secretNumber = 7;
+var guess = prompt("guess a number");
+if(Number(guess) === secretNumber) {
+	alert("right!!");
+}
+if(Number(guess) < secretNumber) {
+	alert("too low");
+}
+if(Number(guess) > secretNumber) {
+	alert("too high");
+}
+
+
+</script>
+</body>
+</html>
